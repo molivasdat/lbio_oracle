@@ -12,5 +12,6 @@ BEGIN
     INTO F_OUT,L_OUT,A_OUT
     FROM BASETABLE
     WHERE dept = p_dept;
-END
+END;
+/
 --rollback drop procedure get_names_by_department
